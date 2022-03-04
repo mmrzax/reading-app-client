@@ -6,7 +6,7 @@ import AddBook from './components/AddBook';
 
 // Apollo Client Setup
 const client = new ApolloClient({
-  uri: 'http://mrx-read.herokuapp.com/graphql',
+  uri: '//mrx-read.herokuapp.com/graphql',
   cache: new InMemoryCache(),
 });
 
